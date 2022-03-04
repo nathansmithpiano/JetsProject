@@ -1,5 +1,6 @@
-package com.skilldistillery.jets;
+package com.skilldistillery.jets.app;
 
+import com.skilldistillery.jets.entities.*;
 import java.util.Scanner;
 
 public class JetsApplication {
