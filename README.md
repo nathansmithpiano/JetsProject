@@ -15,4 +15,3 @@ Terminal
 MacBook Pro Retina 2015
 
 ### What was fun?
-# JetsProject
