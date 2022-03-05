@@ -8,6 +8,7 @@ public abstract class Jet {
 	private double speed;
 	private int range;
 	private double price;
+	private String pilotName;
 
 	public Jet(String model, double speed, int range, double price) {
 		this.model = model;
@@ -16,10 +17,16 @@ public abstract class Jet {
 		this.price = price;
 	}
 	
+	public void setPilot(String pilotName) {
+		this.pilotName = pilotName;
+	}
+	
+	public String getPilotName() {
+		return pilotName;
+	}
+	
 	public String fly() {
-		
 		return toString() + " | Duration: " + getDuration();
-		
 	}
 	
 	public String getDuration() {
@@ -58,8 +65,16 @@ public abstract class Jet {
 	
 	public double getSpeedInMach() {
 		double value = 0.0;
-		
 		return value;
+	}
+	
+	public String getInfoToSave() {
+		String output = "";
+		output += model + ",";
+		output += speed + ",";
+		output += range + ",";
+		output += price;
+		return output;
 	}
 	
 	@Override
@@ -71,6 +86,7 @@ public abstract class Jet {
 		output += " | Speed: " + speedFormat.format(speed) + " mph";
 		output += " | Range: " + range + " mi";
 		output += " | Price: $" + priceFormat.format(price);
+		output += " | Pilot: " + getPilotName();
 		return output;
 	}
 

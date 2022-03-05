@@ -3,4 +3,10 @@ Fighter1,222.22,1043,2222222.22,fighter
 Normal1,333.33,1243,3333333.33,normal
 Cargo2,444.44,1934,4444444.44,cargo
 Fighter2,555.55,25121,5555555.55,fighter
-Normal2,324.32,22343,66666.66,normal
+Duplicate,324.32,22343,66666.66,normal
+Duplicate,344.32,21343,66366.66,normal
+Duplicate,111.11,11311,1111.11,normal
+Duplicate,111.11,11511,1111.11,normal
+Duplicate,111.11,1211,1111.11,normal
+Duplicate,111.11,114311,1111.11,normal
+Duplicate,111.11,11121,1111.11,normal
