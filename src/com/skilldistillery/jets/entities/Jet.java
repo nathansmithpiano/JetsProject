@@ -64,7 +64,7 @@ public abstract class Jet {
 	}
 	
 	public double getSpeedInMach() {
-		double value = 0.0;
+		double value = getSpeed() * 0.001303;
 		return value;
 	}
 	
