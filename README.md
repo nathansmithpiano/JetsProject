@@ -1,5 +1,7 @@
 # Jets Project
 
+Developed as a weekend solo project for Skill Distillery SD32
+
 ### Description
 This Java 1.8 project provides the ability to operate several options on an airfield of jets.  Three subclasses, or types, of jets exist: Cargo Plane, Fighter Jet, and Normal.  Using the console, the program imports and parses through an initial data set (CSV) stored in an external .txt file.  A user can explore options for this existing data set, add/remove elements from the initial set, and save to additional files.  Data created is simply a random set and does not reflect any real-life data.
 
